@@ -1,0 +1,10 @@
+runtime: html5
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  script: index.html
+
+- url: /index\.html
+  script: hello.html
